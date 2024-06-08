@@ -1,0 +1,321 @@
+
+
+body{
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.barranav{
+    display: flex;
+    width: 100%;
+    color: white !important;
+    z-index: 10;
+
+
+}
+
+.imglogo{
+    margin-left: 20%;
+    width: 20%;
+}
+
+.seccion1{
+    width: 45%;
+}
+
+.seccion2{
+    width: 40%;
+    
+}
+
+.seccion2 input::placeholder{
+    color: white;
+}
+
+.seccion3{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    height: 50px;
+}
+
+
+
+.btn-success{
+    display: flex !important;
+    width: 50% !important;
+    justify-content: center !important;
+}
+
+.form-control {
+    width: 100% !important;
+    background-color: transparent !important;
+    color: black !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    transition: 1s !important;
+    height: 35px;
+}
+
+.form-control:hover{
+    height: 50px;
+}
+
+.me-{
+    color: red !important;
+}
+
+.placeholder{
+    color: red !important;
+}
+
+.galeriapd{
+    display: flex;
+    width: 100%;
+}
+
+.galeriader{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imgropa{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    transition: 2s;
+}
+
+.imgropa:hover{
+    width: 55%;
+}
+
+.ropatext {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+p {
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-family: "Orienta", sans-serif;
+    font-weight: 400;
+}
+
+
+.seccionimg {
+    object-fit: cover;
+    object-position: 0px -50px;
+    width: 100%;
+    opacity: 60%;
+    transition: 4s;
+}
+
+
+
+.cardspd{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 5%;
+}
+
+.cards{
+    width: 25%;
+    margin: 2%;
+    transition: 1s;
+}
+
+.cards:hover{
+    width: 27%;
+}
+
+
+
+.cardsimg{
+    object-fit: cover;
+}
+
+.ropaimg {
+    object-fit: cover;
+    width: 100%;
+    max-height: 250px;
+}
+
+.btn, .btn-success{
+
+    width: 100%;
+
+}
+
+.sobrenos {
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    transition: 1s;
+    background: #fbd157;
+}
+
+
+.sobrenos:hover{
+    box-shadow: 0px 0px 100px violet;
+}
+
+.sobreseccion{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    color: white;
+    margin: 0px 0px 0px 100px;
+}
+
+.logosobre{
+    width: 40%;
+}
+
+.formulario{
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.mb-3{
+    color: white !important;
+}
+
+
+#exampleFormControlInput1{
+    height: 40px !important;
+    transition: 1s !important;
+}
+
+#exampleFormControlInput1:hover{
+    height: 50px !important;
+}
+
+.barranav, .navbar, .bg-dark, .border-body{
+    outline: 0px solid black !important;
+    background: #fbd157;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgb(251 209 87) !important;
+}
+
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #000000 !important;
+}
+
+@media (max-width: 1025px) {
+
+    .logosobre {
+            width: 100%;
+    }
+
+}
+
+
+@media (max-width: 430px) {
+    .seccion1 {
+        width: 30%;
+    }
+
+    .seccion2{
+        width: 43%;
+    }
+
+    .seccion3 {
+        width: 27%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .seccionimg {
+        object-fit: cover;
+        object-position: 0px -50px;
+        width: 100%;
+        opacity: 60%;
+        transition: 4s;
+    }
+
+    .imglogo {
+        margin-left: 20%;
+        width: 70%;
+    }
+
+    .imgropa{
+        width: 100%;
+    }
+
+    .imgropa:hover{
+        width: 100%;
+        height: 700px;
+    }
+
+    .ropatext {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+    }
+
+    .galeriapd {
+        display: block;
+        width: 100%;
+    }
+
+    .galeriader {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .cards {
+        width: 100%;
+        margin: 2%;
+        transition: 1s;
+    }
+
+    .sobreseccion {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding: 10%;
+    }
+
+    .sobrenos{
+        display: block;
+        width: 100%;
+    }
+
+    .cards:hover{
+        width: 100%;
+    }
+
+    .formulario {
+        width: 75%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+
+    
+}
