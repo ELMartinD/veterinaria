@@ -244,7 +244,7 @@ p {
 
     .seccionimg {
         object-fit: cover;
-        object-position: 0px -50px;
+        object-position: -300px -50px;
         width: 100%;
         opacity: 60%;
         transition: 4s;
