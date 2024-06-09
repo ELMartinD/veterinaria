@@ -4,6 +4,111 @@ body{
     background-color: rgb(0, 0, 0) !important;
 }
 
+.equipo {
+    background-attachment: fixed;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.veterinariouno{
+    opacity: 60%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    width: 20%;
+    height: 600px;
+    background-position: 60% 10%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(https://plus.unsplash.com/premium_photo-1663133414738-d8e2c14e05ad?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    transition: 4s;
+}
+
+.veterinariodos{
+    display: flex;
+    opacity: 60%;
+    align-items: end;
+    justify-content: center;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    width: 20%;
+    height: 600px;
+    background-position: 0% 10%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(/img/322510934_474155654895474_5632678144588518417_n.jpg);
+    transition: 4s;
+}
+
+.veterinariotres{
+    display: flex;
+    opacity: 60%;
+    align-items: end;
+    justify-content: center;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    width: 20%;
+    height: 600px;
+    background-position: 50% 10%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(https://plus.unsplash.com/premium_photo-1663011296454-e68f12e316e3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    transition: 4s;
+}
+
+
+.veterinariouno:hover, .veterinariodos:hover, .veterinariotres:hover{
+    width: 28%;
+}
+
+
+.veterinariosimg{
+    object-fit: cover;
+    width: 350px;
+    height: 600px;
+    transition: 2s;
+}
+
+.veterinariosimg:hover{
+    object-fit: cover;
+    width: 450px;
+    height: 600px;
+}
+
+.contacto{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+.productotxt{
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.descripciontxt {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    text-wrap: pretty;
+    font-size: 17px;
+    padding: 2%;
+}
+
+button.btn.btn-success {
+    height: 50px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    font-family: "Golos Text", sans-serif !important;
+    font-weight: 500 !important;
+}
+
 .barranav{
     display: flex;
     width: 100%;
@@ -13,9 +118,9 @@ body{
 
 }
 
-.imglogo{
+.imglogo {
     margin-left: 20%;
-    width: 20%;
+    width: 17%;
 }
 
 .seccion1{
@@ -30,6 +135,16 @@ body{
 .seccion2 input::placeholder{
     color: white;
 }
+
+.formulario input::placeholder{
+    color: white;
+}
+
+textarea#exampleFormControlTextarea1::placeholder {
+    color: white;
+}
+
+
 
 .seccion3{
     width: 15%;
@@ -54,14 +169,18 @@ body{
     width: 100% !important;
     background-color: transparent !important;
     color: black !important;
-    border: 2px solid black !important;
+    border: 3px solid rgb(0, 0, 0) !important;
     border-radius: 0px !important;
     transition: 1s !important;
-    height: 35px;
+    height: 50px;
+    font-size: 20px !important;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
 }
 
 .form-control:hover{
-    height: 50px;
+    height: 60px;
 }
 
 .me-{
@@ -91,7 +210,7 @@ body{
 }
 
 .imgropa:hover{
-    width: 55%;
+    width: 60%;
 }
 
 .ropatext {
@@ -99,7 +218,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 5%;
+    text-wrap: pretty;
 }
 
 p {
@@ -112,10 +232,14 @@ p {
 
 .seccionimg {
     object-fit: cover;
-    object-position: 0px -50px;
+    object-position: 0px 0px;
     width: 100%;
-    opacity: 60%;
+    opacity: 40%;
     transition: 4s;
+}
+
+.seccionimg:hover {
+    opacity: 90%;
 }
 
 
@@ -164,17 +288,18 @@ p {
     padding: 50px 0px 50px 0px;
     transition: 1s;
     background: #fbd157;
+    align-items: center;
 }
 
 
 .sobrenos:hover{
-    box-shadow: 0px 0px 100px violet;
+    box-shadow: 0px 0px 50px #fbd157;
 }
 
-.sobreseccion{
+.sobreseccion {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 40%;
     color: white;
     margin: 0px 0px 0px 100px;
 }
@@ -195,8 +320,12 @@ p {
 }
 
 
-#exampleFormControlInput1{
+#exampleFormControlInput1 {
     height: 40px !important;
+    transition: 1s !important;
+    border: 3px solid #fbd157 !important;
+    color: white !important;
+    height: 40px;
     transition: 1s !important;
 }
 
@@ -204,9 +333,15 @@ p {
     height: 50px !important;
 }
 
-.barranav, .navbar, .bg-dark, .border-body{
+textarea.form-control {
+    min-height: 10rem !important;
+    border: 3px solid #fbd157 !important;
+    color: white !important;
+}
+
+.barranav, .navbar, .bg-dark, .border-body {
     outline: 0px solid black !important;
-    background: #fbd157;
+    background: #edbe37 !important;
 }
 
 .bg-dark {
@@ -217,6 +352,14 @@ p {
 .border-bottom {
     border-bottom: var(--bs-border-width) var(--bs-border-style) #000000 !important;
 }
+
+.formulario {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+
 
 @media (max-width: 1025px) {
 
@@ -315,7 +458,39 @@ p {
         margin-top: 10%;
         margin-bottom: 10%;
     }
+
+    button.btn.btn-success {
+        height: 50px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+        font-family: "Golos Text", sans-serif !important;
+        font-weight: 500 !important;
+        width: 85% !important;
+    }
+
+    .equipo{
+        width: 100%;
+    }
     
+    .veterinariouno, .veterinariodos, .veterinariotres{
+        width: 100%;
+        opacity: 50%;
+    }
+
+    .veterinariouno:hover{
+        width: 100%;
+    }
+
+    .veterinariodos:hover{
+        width: 100%;
+    }
+
+    .veterinariotres:hover{
+        width: 100%;
+    }
+
+
 
     
 }
