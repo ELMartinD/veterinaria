@@ -157,6 +157,12 @@ textarea#exampleFormControlTextarea1::placeholder {
     height: 50px;
 }
 
+.barranav.navbar.border-body {
+    height: 93px !important;
+    display: flex !important;
+    align-content: center !important;
+}
+
 
 
 .btn-success{
@@ -426,10 +432,15 @@ textarea.form-control {
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
+    
+    .cardspd{
+        width: 80%;
+        margin: auto;
+    }
 
     .cards {
         width: 100%;
-        margin: 2%;
+        margin-top: 20%;
         transition: 1s;
     }
 
@@ -460,7 +471,7 @@ textarea.form-control {
     }
 
     button.btn.btn-success {
-        height: 50px !important;
+        height: 40px !important;
         display: flex !important;
         align-items: center !important;
         justify-content: space-around !important;
@@ -489,6 +500,9 @@ textarea.form-control {
     .veterinariotres:hover{
         width: 100%;
     }
+
+
+    
 
 
 
