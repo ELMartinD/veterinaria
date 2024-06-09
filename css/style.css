@@ -101,7 +101,7 @@ body{
 }
 
 button.btn.btn-success {
-    height: 50px !important;
+    height: 40px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: space-around !important;
@@ -124,7 +124,7 @@ button.btn.btn-success {
 }
 
 .seccion1{
-    width: 45%;
+    width: 40%;
 }
 
 .seccion2{
@@ -147,7 +147,7 @@ textarea#exampleFormControlTextarea1::placeholder {
 
 
 .seccion3{
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: center;
 }
@@ -169,10 +169,10 @@ textarea#exampleFormControlTextarea1::placeholder {
     width: 100% !important;
     background-color: transparent !important;
     color: black !important;
-    border: 3px solid rgb(0, 0, 0) !important;
+    border: 2px solid rgb(0, 0, 0) !important;
     border-radius: 0px !important;
     transition: 1s !important;
-    height: 50px;
+    height: 40px;
     font-size: 20px !important;
     font-family: "Golos Text", sans-serif;
     font-weight: 500;
@@ -180,7 +180,7 @@ textarea#exampleFormControlTextarea1::placeholder {
 }
 
 .form-control:hover{
-    height: 60px;
+    height: 50px;
 }
 
 .me-{
