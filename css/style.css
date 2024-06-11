@@ -86,10 +86,10 @@ body{
     text-align: center;
 }
 
-.productotxt{
+.productotxt {
     font-family: "Golos Text", sans-serif;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 24px;
 }
 
 .descripciontxt {
@@ -172,10 +172,11 @@ textarea#exampleFormControlTextarea1::placeholder {
 }
 
 .form-control {
+    background: #000000bd !important;
     width: 100% !important;
     background-color: transparent !important;
     color: black !important;
-    border: 2px solid rgb(0, 0, 0) !important;
+    border: 0px solid rgb(0, 0, 0) !important;
     border-radius: 0px !important;
     transition: 1s !important;
     height: 40px;
