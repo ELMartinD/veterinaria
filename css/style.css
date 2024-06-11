@@ -43,9 +43,9 @@ button.btn.btn-outline-danger {
     font-weight: 500;
     width: 20%;
     height: 600px;
-    background-position: 0% 10%;
+    background-position: 70% 10%;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(/img/322510934_474155654895474_5632678144588518417_n.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(https://plus.unsplash.com/premium_photo-1663045912941-b82a0cd5c175?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     transition: 4s;
 }
 
