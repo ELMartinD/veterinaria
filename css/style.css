@@ -107,6 +107,11 @@ button.btn.btn-success {
     justify-content: space-around !important;
     font-family: "Golos Text", sans-serif !important;
     font-weight: 500 !important;
+    transition: 1s !important;
+}
+
+button.btn.btn-success:hover{
+    height: 50px !important;
 }
 
 .barranav{
@@ -169,6 +174,11 @@ textarea#exampleFormControlTextarea1::placeholder {
     display: flex !important;
     width: 50% !important;
     justify-content: center !important;
+}
+
+input.form-control {
+    background-color: #00000080 !important;
+    border-radius: 20cm !important;
 }
 
 .form-control {
@@ -381,7 +391,7 @@ textarea.form-control {
 
     input.form-control {
         background: #0000007d !important;
-        border-radius: 10px !important;
+        border-radius: 20cm !important;
     }
 
     button.btn.btn-outline-danger {
@@ -540,6 +550,12 @@ textarea.form-control {
         font-family: "Golos Text", sans-serif !important;
         font-weight: 500 !important;
         width: 85% !important;
+        transition: 1s !important;
+    }
+
+    .btn:hover{
+        width: 100% !important;
+        height: 50px !important;
     }
 
     .equipo{
