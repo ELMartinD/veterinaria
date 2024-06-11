@@ -424,6 +424,21 @@ textarea.form-control {
 
 @media (max-width: 430px) {
 
+    .ftperfil {
+        width: 55px;
+        height: 55px;
+        object-fit: cover;
+        object-position: 100% 0%;
+        border-radius: 100%;
+        transition: 1s;
+    }
+
+    .barranav.navbar.border-body {
+        height: 80px !important;
+        display: flex !important;
+        align-content: center !important;
+    }
+
     input.form-control {
         background: #0000007d !important;
         border-radius: 20cm !important;
@@ -604,7 +619,7 @@ textarea.form-control {
         justify-content: space-around !important;
         font-family: "Golos Text", sans-serif !important;
         font-weight: 500 !important;
-        width: 80% !important;
+        width: 85% !important;
         border-radius: 2cm !important;
         transition: 1s !important;
     }
