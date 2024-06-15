@@ -1,0 +1,230 @@
+@media (max-width: 430px) {
+
+    .ftperfil {
+        width: 55px;
+        height: 55px;
+        object-fit: cover;
+        object-position: 100% 0%;
+        border-radius: 100%;
+        transition: 1s;
+    }
+
+    .barranav.navbar.border-body {
+        height: 80px !important;
+        display: flex !important;
+        align-content: center !important;
+    }
+
+    input.form-control {
+        background: #0000007d !important;
+        border-radius: 20cm !important;
+        padding-left: 8% !important;
+    }
+
+    .form-control{
+        height: 40px;
+        transition: 1s;
+    }
+
+    .form-control:hover{
+        height: 45px;
+    }
+
+    button.btn.btn-outline-danger {
+        border-radius: 0px !important;
+    }
+
+    button.btn.btn-success{
+        transition: 1s !important;
+    }
+
+    button.btn.btn-success:hover{
+        height: 50px !important;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 15px;
+    }
+
+    .productotxt {
+        font-family: "Golos Text", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        height: 70px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripciontxt {
+        font-family: "Golos Text", sans-serif;
+        font-weight: 500;
+        text-wrap: pretty;
+        font-size: 12px;
+        padding: 2%;
+    }
+
+    .ropaimg {
+        object-fit: cover;
+        width: 100%;
+        max-height: 110px;
+        transition: 1s;
+    }
+
+    .ropaimg:hover{
+        width: 150px;
+        height: 350px;
+
+    }
+
+
+
+    .seccion1 {
+        width: 20%;
+        display: flex;
+        position: relative;
+        right: 2%;
+    }
+
+    .seccion2{
+        width: 45%;
+        right: 10%;
+        justify-content: end;
+    }
+
+    .seccion3 {
+        width: 15%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .seccion4{
+        width: 20%;
+        justify-content: center;
+    }
+
+    .seccionimg {
+        object-fit: cover;
+        object-position: -300px -50px;
+        width: 100%;
+        opacity: 60%;
+        transition: 4s;
+    }
+
+    .imglogo {
+        margin-left: 20%;
+        width: 85%;
+    }
+    
+    .imgropa{
+        width: 100%;
+    }
+
+    .imgropa:hover{
+        width: 100%;
+        height: 700px;
+    }
+
+    .ropatext {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+    }
+
+    .galeriapd {
+        display: block;
+        width: 100%;
+    }
+
+    .galeriader {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    
+    .cardspd {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .cards {
+        width: 40%;
+        margin-top: 20%;
+        transition: 1s;
+        text-align: center;
+        background-color: rgb(7, 7, 7);
+    }
+
+    .cards:hover{
+        width: 40%;
+    }
+
+    .sobreseccion {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding: 10%;
+    }
+
+    .sobrenos{
+        display: block;
+        width: 100%;
+    }
+
+    .formulario {
+        width: 75%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    button.btn.btn-success {
+        height: 40px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+        font-family: "Golos Text", sans-serif !important;
+        font-weight: 500 !important;
+        width: 85% !important;
+        border-radius: 2cm !important;
+        transition: 1s !important;
+    }
+
+    .btn:hover{
+        width: 100% !important;
+        height: 45px !important;
+    }
+
+    .equipo{
+        width: 100%;
+    }
+    
+    .veterinariouno, .veterinariodos, .veterinariotres{
+        width: 100%;
+        opacity: 50%;
+    }
+
+    .veterinariouno:hover{
+        width: 100%;
+    }
+
+    .veterinariodos:hover{
+        width: 100%;
+    }
+
+    .veterinariotres:hover{
+        width: 100%;
+    }
+
+
+}

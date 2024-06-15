@@ -1,139 +1,30 @@
-
-
-body{
-    background-color: rgb(0, 0, 0) !important;
-}
-
-button.btn.btn-outline-danger {
-    border-radius: 0px !important;
-}
-
-
-.equipo {
-    background-attachment: fixed;
-    display: flex;
-    width: 80%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-top: 2%;
-}
-
-.veterinariouno{
-    opacity: 60%;
-    display: flex;
-    align-items: end;
-    justify-content: center;
+*{
+    margin: 0px;
     font-family: "Golos Text", sans-serif;
     font-weight: 500;
-    width: 20%;
-    height: 600px;
-    background-position: 60% 10%;
-    background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(https://plus.unsplash.com/premium_photo-1663133414738-d8e2c14e05ad?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    transition: 4s;
 }
 
-.veterinariodos{
-    display: flex;
-    opacity: 60%;
-    align-items: end;
-    justify-content: center;
-    font-family: "Golos Text", sans-serif;
-    font-weight: 500;
-    width: 20%;
-    height: 600px;
-    background-position: 70% 10%;
-    background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(https://plus.unsplash.com/premium_photo-1663045912941-b82a0cd5c175?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    transition: 4s;
+body {
+    background: black !important;
 }
 
-.veterinariotres{
-    display: flex;
-    opacity: 60%;
-    align-items: end;
-    justify-content: center;
-    font-family: "Golos Text", sans-serif;
-    font-weight: 500;
-    width: 20%;
-    height: 600px;
-    background-position: 50% 10%;
-    background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(https://plus.unsplash.com/premium_photo-1663011296454-e68f12e316e3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    transition: 4s;
-}
-
-
-.veterinariouno:hover, .veterinariodos:hover, .veterinariotres:hover{
-    width: 28%;
-}
-
-
-.veterinariosimg{
-    object-fit: cover;
-    width: 350px;
-    height: 600px;
-    transition: 2s;
-}
-
-.veterinariosimg:hover{
-    object-fit: cover;
-    width: 450px;
-    height: 600px;
-}
-
-.contacto{
-    width: 60%;
-    margin: auto;
-    margin-top: 5%;
-    color: white;
-    text-align: center;
-}
-
-.productotxt {
-    font-family: "Golos Text", sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-}
-
-.descripciontxt {
-    font-family: "Golos Text", sans-serif;
-    font-weight: 500;
-    text-wrap: pretty;
-    font-size: 17px;
-    padding: 2%;
-}
-
-button.btn.btn-success {
-    height: 50px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-around !important;
-    font-family: "Golos Text", sans-serif !important;
-    font-weight: 500 !important;
-    transition: 1s !important;
-    border-radius: 20cm !important;
-    width: 100px !important;
-}
-
-button.btn.btn-success:hover{
-    height: 60px !important;
-}
-
-.barranav{
-    display: flex;
-    width: 100%;
-    color: white !important;
-    z-index: 10;
-
-
-}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
 
 .imglogo {
-    margin-left: 20%;
     width: 30%;
-    margin-top: 1%;
+}
+
+.ftperfil{
+    width: 60px;
+    height:60px;
+    object-position: 100% 0%;
+    transition: 1s;
 }
 
 .seccion1 {
@@ -141,519 +32,61 @@ button.btn.btn-success:hover{
 }
 
 .seccion2{
-    display: flex;
-    justify-content: center;
     width: 65%;
-    
 }
 
 .seccion2 input::placeholder{
     color: white;
 }
 
-.formulario input::placeholder{
-    color: white;
-}
-
-textarea#exampleFormControlTextarea1::placeholder {
-    color: white;
-}
-
-
-
-.seccion3 {
+.seccion3, .seccion4{
     width: 5%;
-    display: flex;
-    justify-content: end;
 }
 
-.seccion4 {
-    width: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
+.cimg{
+    height: 500px;
 }
 
-.ftperfil{
-    width: 60px;
-    height:60px;
-    object-fit: cover;
-    object-position: 100% 0%;
-    border-radius: 100%;
-    border-color: 0xp #000000;
-    transition: 1s;
-}
-
-.ftperfil:hover{
-    border: 2px solid black;
-
-}
-
-.form-control:focus{
-    box-shadow: none !important;
-    height: 50px;
-}
-
-.barranav.navbar.border-body {
-    height: 110px !important;
-    display: flex !important;
-    align-content: center !important;
-}
-
-
-
-.btn-success{
-    display: flex !important;
-    width: 50% !important;
-    justify-content: center !important;
-}
-
-input.form-control {
-    background-color: #00000080 !important;
-    border-radius: 20cm !important;
-    padding-left: 2%;
-}
-
-.form-control {
-    background: #000000bd !important;
-    width: 100% !important;
-    background-color: transparent !important;
-    color: black !important;
-    border: 0px solid rgb(0, 0, 0) !important;
-    border-radius: 0px !important;
-    transition: 1s !important;
-    height: 50px;
-    font-size: 20px !important;
-    font-family: "Golos Text", sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-}
-
-.form-control:hover{
-    height: 60px;
-}
-
-.me-{
-    color: red !important;
-}
-
-.placeholder{
-    color: red !important;
-}
-
-.galeriapd{
-    display: flex;
-    width: 100%;
-}
-
-.galeriader{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.imgropa{
-    width: 50%;
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
+.cards{
     transition: 2s;
 }
 
-.imgropa:hover{
-    width: 55%;
-}
-
-.ropatext {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
-    text-wrap: pretty;
-}
-
-p {
-    font-size: x-large;
-    color: rgb(255, 255, 255);
-    font-family: "Orienta", sans-serif;
-    font-weight: 400;
-}
-
-
-.seccionimg {
-    object-fit: cover;
-    object-position: 0px 0px;
-    width: 100%;
-    opacity: 40%;
-    transition: 4s;
-}
-
-.seccionimg:hover {
-    opacity: 90%;
-}
-
-
-
-.cardspd{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color: white;
-    margin-top: 5%;
-}
-
-.cards {
-    width: 25%;
-    margin: 2%;
-    transition: 1s;
-    background-color: #0e0e0e;
-    text-align: center;
-}
-
 .cards:hover{
-    width: 27%;
-}
-
-
-
-.cardsimg{
-    object-fit: cover;
+    width: 28% !important;
 }
 
 .ropaimg {
-    object-fit: cover;
-    width: 100%;
     max-height: 250px;
 }
 
-.btn, .btn-success{
-
-    width: 100%;
-
+button.btn.btn-outline-danger {
+    border-radius: 0px;
 }
 
-.sobrenos {
-    margin-top: 5%;
-    display: flex;
-    width: 100%;
-    padding: 50px 0px 50px 0px;
-    transition: 1s;
-    background: #fbd157;
-    align-items: center;
+.veterinariouno, .veterinariodos, .veterinariotres{
+    height: 600px;
+    transition: 4s;
+    background-size: cover;
 }
 
-
-.sobrenos:hover{
-    box-shadow: 0px 0px 50px #fbd157;
+.veterinariouno:hover, .veterinariodos:hover, .veterinariotres:hover{
+    width: 35% !important;
 }
 
-.sobreseccion {
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-    color: white;
-    margin: 0px 0px 0px 100px;
+.veterinariouno{
+    background-position: 50% 0%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(https://plus.unsplash.com/premium_photo-1663133414738-d8e2c14e05ad?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
-.logosobre{
-    width: 40%;
+.veterinariodos{
+    background-position: 70% 10%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(https://plus.unsplash.com/premium_photo-1663045912941-b82a0cd5c175?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
-.formulario{
-    width: 30%;
-    margin: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-.mb-3{
-    color: white !important;
+.veterinariotres{
+    background-position: 40% 10%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(https://plus.unsplash.com/premium_photo-1663011296454-e68f12e316e3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
 
-#exampleFormControlInput1 {
-    height: 40px !important;
-    transition: 1s !important;
-    border: 3px solid #fbd157 !important;
-    color: white !important;
-    height: 40px;
-    transition: 1s !important;
-}
 
-#exampleFormControlInput1:hover{
-    height: 50px !important;
-}
-
-textarea.form-control {
-    min-height: 10rem !important;
-    border: 3px solid #fbd157 !important;
-    color: white !important;
-}
-
-.barranav, .navbar, .bg-dark, .border-body {
-    outline: 0px solid black !important;
-    background: #edbe37 !important;
-}
-
-.bg-dark {
-    --bs-bg-opacity: 1;
-    background-color: rgb(251 209 87) !important;
-}
-
-.border-bottom {
-    border-bottom: var(--bs-border-width) var(--bs-border-style) #000000 !important;
-}
-
-.formulario {
-    width: 30%;
-    margin: auto;
-    margin-bottom: 10%;
-    margin-top: 2%;
-}
-
-
-@media (max-width: 1025px) {
-
-    .logosobre {
-            width: 100%;
-    }
-
-}
-
-
-@media (max-width: 430px) {
-
-    .ftperfil {
-        width: 55px;
-        height: 55px;
-        object-fit: cover;
-        object-position: 100% 0%;
-        border-radius: 100%;
-        transition: 1s;
-    }
-
-    .barranav.navbar.border-body {
-        height: 80px !important;
-        display: flex !important;
-        align-content: center !important;
-    }
-
-    input.form-control {
-        background: #0000007d !important;
-        border-radius: 20cm !important;
-        padding-left: 8% !important;
-    }
-
-    .form-control{
-        height: 40px;
-        transition: 1s;
-    }
-
-    .form-control:hover{
-        height: 45px;
-    }
-
-    button.btn.btn-outline-danger {
-        border-radius: 0px !important;
-    }
-
-    button.btn.btn-success{
-        transition: 1s !important;
-    }
-
-    button.btn.btn-success:hover{
-        height: 50px !important;
-    }
-
-    p {
-        margin-top: 0;
-        margin-bottom: 1rem;
-        font-size: 15px;
-    }
-
-    .productotxt {
-        font-family: "Golos Text", sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-        height: 70px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .descripciontxt {
-        font-family: "Golos Text", sans-serif;
-        font-weight: 500;
-        text-wrap: pretty;
-        font-size: 12px;
-        padding: 2%;
-    }
-
-    .ropaimg {
-        object-fit: cover;
-        width: 100%;
-        max-height: 110px;
-        transition: 1s;
-    }
-
-    .ropaimg:hover{
-        width: 150px;
-        height: 350px;
-
-    }
-
-
-
-    .seccion1 {
-        width: 20%;
-        display: flex;
-        position: relative;
-        right: 2%;
-    }
-
-    .seccion2{
-        width: 45%;
-        right: 10%;
-        justify-content: end;
-    }
-
-    .seccion3 {
-        width: 15%;
-        display: flex;
-        justify-content: end;
-    }
-
-    .seccion4{
-        width: 20%;
-        justify-content: center;
-    }
-
-    .seccionimg {
-        object-fit: cover;
-        object-position: -300px -50px;
-        width: 100%;
-        opacity: 60%;
-        transition: 4s;
-    }
-
-    .imglogo {
-        margin-left: 20%;
-        width: 85%;
-    }
-    
-    .imgropa{
-        width: 100%;
-    }
-
-    .imgropa:hover{
-        width: 100%;
-        height: 700px;
-    }
-
-    .ropatext {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 10%;
-    }
-
-    .galeriapd {
-        display: block;
-        width: 100%;
-    }
-
-    .galeriader {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-    
-    .cardspd {
-        width: 100%;
-        flex-wrap: wrap;
-        display: flex;
-    }
-
-    .cards {
-        width: 40%;
-        margin-top: 20%;
-        transition: 1s;
-        text-align: center;
-        background-color: rgb(7, 7, 7);
-    }
-
-    .cards:hover{
-        width: 40%;
-    }
-
-    .sobreseccion {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        color: white;
-        text-align: center;
-        margin: 0px;
-        padding: 10%;
-    }
-
-    .sobrenos{
-        display: block;
-        width: 100%;
-    }
-
-    .formulario {
-        width: 75%;
-        margin: auto;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-
-    button.btn.btn-success {
-        height: 40px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: space-around !important;
-        font-family: "Golos Text", sans-serif !important;
-        font-weight: 500 !important;
-        width: 85% !important;
-        border-radius: 2cm !important;
-        transition: 1s !important;
-    }
-
-    .btn:hover{
-        width: 100% !important;
-        height: 45px !important;
-    }
-
-    .equipo{
-        width: 100%;
-    }
-    
-    .veterinariouno, .veterinariodos, .veterinariotres{
-        width: 100%;
-        opacity: 50%;
-    }
-
-    .veterinariouno:hover{
-        width: 100%;
-    }
-
-    .veterinariodos:hover{
-        width: 100%;
-    }
-
-    .veterinariotres:hover{
-        width: 100%;
-    }
-
-
-    
-
-
-
-    
-}
