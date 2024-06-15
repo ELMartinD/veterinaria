@@ -35,7 +35,8 @@ body {
     width: 65%;
 }
 
-.seccion2 input::placeholder{
+.seccion2 input::placeholder,
+.formulario input::placeholder{
     color: white;
 }
 
@@ -56,7 +57,7 @@ body {
 }
 
 .ropaimg {
-    max-height: 250px;
+    max-height: 200px;
 }
 
 button.btn.btn-outline-danger {
