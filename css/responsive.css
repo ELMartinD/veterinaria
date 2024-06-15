@@ -1,229 +1,120 @@
-@media (max-width: 430px) {
+@media (max-width: 340px) {
 
-    .ftperfil {
-        width: 55px;
-        height: 55px;
-        object-fit: cover;
-        object-position: 100% 0%;
-        border-radius: 100%;
-        transition: 1s;
+
+    button.btn.btn-outline-success {
+        display: none;
     }
 
-    .barranav.navbar.border-body {
-        height: 80px !important;
-        display: flex !important;
-        align-content: center !important;
+    img.imglogo.ms-5 {
+        margin: 0% 0% 0% 10% !important;
     }
 
-    input.form-control {
-        background: #0000007d !important;
-        border-radius: 20cm !important;
-        padding-left: 8% !important;
+    button.btn.btn-success.d-flex.justify-content-center.pe-3.ps-3.pt-2.pb-2 {
+        padding: 20% !important;
     }
 
-    .form-control{
-        height: 40px;
-        transition: 1s;
+    input.form-control.p-2.me-2.bg-dark.border.border-success.text-light {
+        padding: 4% !important;
     }
 
-    .form-control:hover{
-        height: 45px;
+    img.ftperfil.object-fit-cover.rounded-circle {
+        height: 50px;
+        width: 50px;
     }
 
-    button.btn.btn-outline-danger {
-        border-radius: 0px !important;
-    }
-
-    button.btn.btn-success{
-        transition: 1s !important;
-    }
-
-    button.btn.btn-success:hover{
-        height: 50px !important;
-    }
-
-    p {
-        margin-top: 0;
-        margin-bottom: 1rem;
-        font-size: 15px;
-    }
-
-    .productotxt {
-        font-family: "Golos Text", sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-        height: 70px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .descripciontxt {
-        font-family: "Golos Text", sans-serif;
-        font-weight: 500;
-        text-wrap: pretty;
-        font-size: 12px;
-        padding: 2%;
-    }
-
-    .ropaimg {
-        object-fit: cover;
+    img.ropaimg.w-100.object-fit-cover {
         width: 100%;
-        max-height: 110px;
-        transition: 1s;
+        max-height: 100px;
     }
 
-    .ropaimg:hover{
-        width: 150px;
-        height: 350px;
+    .cardspd.bg-black.justify-content-around.m-5.d-flex.flex-wrap {
+        margin: 0% !important;
+    }
 
+    .cards.w-25.bg-black.text-light.m-4 {
+        width: 40% !important;
+        margin: 5% !important;
+    }
+
+    h1.productotxt.fs-3.p-2 {
+        font-size: 15px !important;
+        padding: 5% 0 5% 0% !important;
+        height: 40px;
+    }
+
+    .sobreseccion.me-5.w-50.text-light{
+        width: 100% !important;
+        margin: 5% 0% 10% 0% !important;
+    }
+
+    .veterinariouno.w-25.d-flex.opacity-50.justify-content-center.align-items-end {
+        width: 90% !important;
+    }
+
+    .veterinariodos.w-25.d-flex.opacity-50.justify-content-center.align-items-end {
+        width: 90% !important;
+    }
+
+    .veterinariotres.w-25.d-flex.opacity-50.justify-content-center.align-items-end {
+        width: 90% !important;
+    }
+
+    h1.qmuc.fs-1 {
+        margin: 2%;
+    }
+
+    form.formulario.m-auto.mb-5.w-25 {
+        width: 70% !important;
+    }
+
+    h4.txt{
+        font-size: 13px !important;
+    }
+
+    img.ftperfil.object-fit-cover.rounded-circle {
+        margin-left: -20% !important;
     }
 
 
 
-    .seccion1 {
+    img.h-50.w-50 {
+        height: 140px !important;
+        width: 140px !important;
+        margin-left: -15%;
+    }
+
+    .descripciontxt{
+        font-size: 10px;
+    }
+
+    .seccion1{
         width: 20%;
-        display: flex;
-        position: relative;
-        right: 2%;
+        display: none !important;
     }
 
     .seccion2{
-        width: 45%;
-        right: 10%;
-        justify-content: end;
+        width: 40%;
+        display: none !important;
     }
 
-    .seccion3 {
-        width: 15%;
-        display: flex;
-        justify-content: end;
+    .seccion3{
+        width: 10%;
     }
 
     .seccion4{
-        width: 20%;
-        justify-content: center;
+        width: 10%;
     }
 
-    .seccionimg {
-        object-fit: cover;
-        object-position: -300px -50px;
-        width: 100%;
-        opacity: 60%;
-        transition: 4s;
+    .btn, .btn-outline-success{
+        display: none;
     }
 
-    .imglogo {
-        margin-left: 20%;
-        width: 85%;
-    }
-    
-    .imgropa{
+    .imglogo{
         width: 100%;
     }
 
-    .imgropa:hover{
-        width: 100%;
-        height: 700px;
-    }
-
-    .ropatext {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 10%;
-    }
-
-    .galeriapd {
-        display: block;
-        width: 100%;
-    }
-
-    .galeriader {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-    
-    .cardspd {
-        width: 100%;
-        flex-wrap: wrap;
-        display: flex;
-    }
-
-    .cards {
-        width: 40%;
-        margin-top: 20%;
-        transition: 1s;
-        text-align: center;
-        background-color: rgb(7, 7, 7);
-    }
-
-    .cards:hover{
-        width: 40%;
-    }
-
-    .sobreseccion {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        color: white;
-        text-align: center;
-        margin: 0px;
-        padding: 10%;
-    }
-
-    .sobrenos{
-        display: block;
-        width: 100%;
-    }
-
-    .formulario {
-        width: 75%;
-        margin: auto;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-
-    button.btn.btn-success {
-        height: 40px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: space-around !important;
-        font-family: "Golos Text", sans-serif !important;
-        font-weight: 500 !important;
-        width: 85% !important;
-        border-radius: 2cm !important;
-        transition: 1s !important;
-    }
-
-    .btn:hover{
-        width: 100% !important;
-        height: 45px !important;
-    }
-
-    .equipo{
-        width: 100%;
-    }
-    
-    .veterinariouno, .veterinariodos, .veterinariotres{
-        width: 100%;
-        opacity: 50%;
-    }
-
-    .veterinariouno:hover{
-        width: 100%;
-    }
-
-    .veterinariodos:hover{
-        width: 100%;
-    }
-
-    .veterinariotres:hover{
-        width: 100%;
+    .seccion3{
+        display: none !important;
     }
 
 
